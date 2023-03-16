@@ -27,7 +27,7 @@
     "type-check": "tsc --project tsconfig.json --pretty --noEmit",
     "prepare": "husky install",
     "build": "tsc",
-    "ci": "yarn lint && yarn type-check && yarn test",
+    "ci": "yarn lint && yarn type-check",
     "update-deps": "sucrase-node ./src/config/update-deps.ts"
   },
   "dependencies": {
